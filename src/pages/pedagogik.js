@@ -4,8 +4,8 @@ import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
 
-import item1 from '@/assets/IMG_8.JPG'
-import item2 from '@/assets/IMG_4.JPG'
+// import item1 from '@/assets/IMG_8.JPG'
+// import item2 from '@/assets/IMG_4.JPG'
 import ImageCarousel from '@/components/photos/ImageCarousel'
 
 const caveat = Caveat({

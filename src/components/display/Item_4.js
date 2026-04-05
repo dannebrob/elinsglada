@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Caveat } from 'next/font/google'
 
 
-import item from '@/assets/IMG_6.jpg'
+// import item from '@/assets/IMG_6.jpg'
 import { ReadMoreButton } from '@/components/utils/ReadMoreButton'
 
 const caveat = Caveat({

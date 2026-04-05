@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
-import ImageCarousel from '@/components/photos/ImageCarousel'
+// import ImageCarousel from '@/components/photos/ImageCarousel'
 
 const caveat = Caveat({
     subsets: ['latin'],
@@ -70,7 +70,7 @@ export default function Kontakt() {
       </div>
     </section>
      
-     <ImageCarousel />
+     {/* <ImageCarousel /> */}
       <Footer />
     </>
   )

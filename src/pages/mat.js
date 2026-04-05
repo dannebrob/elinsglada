@@ -4,7 +4,7 @@ import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
 
-import item from '@/assets/IMG_5.jpg'
+// import item from '@/assets/IMG_5.jpg'
 import ImageCarousel from '@/components/photos/ImageCarousel'
 
 

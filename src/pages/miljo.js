@@ -4,9 +4,9 @@ import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
 
-import item1 from '@/assets/lekplats.jpg'
-import item2 from '@/assets/skog.jpg'
-import item3 from '@/assets/strand.jpg'
+// import item1 from '@/assets/lekplats.jpg'
+// import item2 from '@/assets/skog.jpg'
+// import item3 from '@/assets/strand.jpg'
 
 import ImageCarousel from '@/components/photos/ImageCarousel'
 
@@ -70,7 +70,7 @@ I förskolans mest centrala rum finns läs- och myshörna, plats för samlingen,
           />
           </div>
       </main>
-      <ImageCarousel />
+      {/* <ImageCarousel /> */}
       <Footer />
     </>
   )

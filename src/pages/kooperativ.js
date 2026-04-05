@@ -3,7 +3,7 @@ import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
 
-import item from '@/assets/IMG_1.jpg'
+// import item from '@/assets/IMG_1.jpg'
 import ImageCarousel from '@/components/photos/ImageCarousel'
 
 const caveat = Caveat({
@@ -53,7 +53,7 @@ export default function Kooperativ() {
       /> 
         </div>
     </main>
-    <ImageCarousel />
+    {/* <ImageCarousel /> */}
     <Footer />
   </>
   )

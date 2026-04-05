@@ -74,7 +74,7 @@ export default function Personalen() {
       </div>
        
     </main>
-    <ImageCarousel />
+    {/* <ImageCarousel /> */}
     <Footer />
   </>
   )

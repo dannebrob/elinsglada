@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Caveat } from 'next/font/google'
 
 
-import item from '@/assets/tyra.png'
+// import item from '@/assets/tyra.png'
 import { ReadMoreButton } from '@/components/utils/ReadMoreButton'
 
 const caveat = Caveat({

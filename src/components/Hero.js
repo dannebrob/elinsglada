@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Attention } from './header/Attention'
 
 import Image from 'next/image'
-import heroImg from '@/assets/IMG_11.jpg'
+// import heroImg from '@/assets/IMG_11.jpg'
 
 const caveat = Caveat({
     subsets: ['latin'],
@@ -24,7 +24,7 @@ export const Hero = () => {
     width={800} 
     height={800} 
     alt='Förskolan giraffen' 
-    src={heroImg.src} 
+    // src={heroImg.src} 
     className='object-cover w-full h-full'
   />
       </div>

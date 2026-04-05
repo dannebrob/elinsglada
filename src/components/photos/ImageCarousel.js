@@ -2,11 +2,11 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 // Import the images (important to make images 1080x1080px for best results)
-import image1 from '@/assets/smet.jpg';
-import image2 from '@/assets/färg-lek.jpg';
-import image3 from '@/assets/barn-promenad.jpg';
-import image4 from '@/assets/barn-sittande.jpg';
-import image5 from '@/assets/pärlplatta.jpg';
+// import image1 from '@/assets/smet.jpg';
+// import image2 from '@/assets/färg-lek.jpg';
+// import image3 from '@/assets/barn-promenad.jpg';
+// import image4 from '@/assets/barn-sittande.jpg';
+// import image5 from '@/assets/pärlplatta.jpg';
 import arrowForward from '@/assets/arrow_forward.svg';
 import arrowBack from '@/assets/arrow_back.svg';
 
