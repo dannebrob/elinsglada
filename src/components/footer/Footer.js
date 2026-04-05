@@ -13,12 +13,11 @@ export const Footer = () => {
     <div className='bg-sand flex flex-col items-center'>
         <Logo />
         <div className='text-center'>
-            <p>Förskolan Giraffen föräldraförening</p>
-            <p>Solvedenvägen 17</p>
-            <p>441 60  ALINGSÅS
-            </p>
-            <p>Telefon: 0735394649</p>
-           <p> E-post: info@forskolangiraffen.se</p>
+            <p>Elins Glada Ekologiska Kor</p>
+            <p>Östanå 107</p>
+            <p>748 91 Österbybruk</p>
+            <p>Telefon: 070-361 94 17</p>
+           <p> E-post: elintorstenson@gmail.com</p>
         </div>
     </div>
     <FooterNav />

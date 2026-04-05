@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { Caveat } from 'next/font/google'
 
 
-// import item from '@/assets/tyra.png'
+import item from '@/assets/about-farm.jpg'
 import { ReadMoreButton } from '@/components/utils/ReadMoreButton'
 
 const caveat = Caveat({
@@ -30,19 +30,12 @@ export const Item1 = () => {
         </div>
         <div className='md:w-6/12 pl-4'> 
         <div className=' flex flex-col p-4'>
-            <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Tyra</h2>
+            <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Om Gården</h2>
             <p>
-            Utöver att vårdnadshavare och personal möts på Giraffen vid lämningar och 
-            hämtningar sker mycket kommunikation via appen Tyra. Här delar personalen 
-            bilder och information från verksamheten på bloggen, lägger in bilder i 
-            barnens egen portfolio, och uppdaterar information om stängningstider. 
-            Barnens schema finns också på Tyra, tillsammans med kontaktuppgifter 
-            till Giraffen och vårdnadshavare, samt klasslista. Detta är en mycket 
-            uppskattad app där du enkelt kan få inblick i barnens dag på förskolan 
-            och ha kommunikation med personalen vid behov.  
+              Hur ser livet ut på en ekologisk gård med 60 hektar mark, 60 djur och två boxrar som heter Sune och Bosse? Följ med och upptäck vardagen bakom ladugårdsdörren.
             </p>
         </div>
-            {/* <ReadMoreButton link={'pedagogik'} /> */}
+           <ReadMoreButton link={'pedagogik'} />
         </div>
 
     </div>

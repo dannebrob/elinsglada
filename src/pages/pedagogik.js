@@ -4,9 +4,8 @@ import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
 
-// import item1 from '@/assets/IMG_8.JPG'
-// import item2 from '@/assets/IMG_4.JPG'
-import ImageCarousel from '@/components/photos/ImageCarousel'
+import item1 from '@/assets/cow-bottle.jpg'
+import item2 from '@/assets/cows-young.jpg'
 
 const caveat = Caveat({
   subsets: ['latin'],
@@ -21,87 +20,51 @@ export default function Pedagogik() {
     <TopHead />
     <main className='bg-sand flex flex-col md:flex-row md:justify-start py-10 pt-20'>
       <div className='mx-10 md:w-1/2'>
-        <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Den pedagogiska verksamheten</h1>
-        <p className='font-bold pb-4'>
-         Ledorden omsorg, utveckling och lärande genomsyrar Förskolan Giraffen.
-        </p>
-        <p className=' pb-4'>
-        Vår vision är att varje barn ska få en lustfylld och lärorik utbildning, 
-        där trygghet, lärande och omsorg genomsyrar utbildningen och skapar förutsättningar 
-        för ett livslångt lärande. Vi värnar om det ekologiska och naturliga värderingarna 
-        som får genomsyra hela vår verksamhet. Vår pedagogiska undervisning utgår från Skolverkets 
-        läroplan för förskolan samt Barnkonventionen. Förskolans pedagoger tar tillvara 
-        varje barns nyfikenhet och lust att lära. Hos oss är barnens inflytande en stor och 
-        viktig del där barns intresse visar vilken väg vi ska ta i vårt pedagogiska arbete.
-        </p>
-        <p className='pb-4'>
-        Vi jobbar utifrån olika teman och projekt där vi tar tillvara på barnens fantasi och idéer. 
-        Undervisningen anpassas flytande och aktivt efter det enskilda barnet samt barngruppen
-        </p>
-      
-
-        <h2 className={`${caveat.className} text-2xl py-5`}>Omsorg</h2>
-        <p>
-        Vi på förskolan Giraffen anser att omsorg har en central del i hela vår verksamhet. 
-        Det är viktigt för oss att alla känner sig trygga, sedda och hörda och att vi 
-        bygger upp nära relationer med barn och deras vårdnadshavare. Genom en trygg grund 
-        kan lärande byggas vidare. Vi som personal ser det som vårt uppdrag att stötta barnen 
-        aktivt genom att vara tillgängliga, att lyssna, att vara inkännande, accepterande och närvarande.
-        </p>
-        <h2 className={`${caveat.className} text-2xl py-5`}>Utveckling</h2>
-        <p className='pb-4'>
-        På förskolan Giraffen har vi en helhetssyn på barns lärande och utveckling. 
-        Vårt pedagogiska arbete syftar till att uppmuntra och stötta barnen så att de 
-        känner en tilltro till sig själva och att de har en positiv uppfattning om sig själva. 
-        Vi vill möta och inspirera barnen i fantasin och därigenom stimulera deras 
-        utveckling och nyfikenhet att lära sig. Barns utveckling sker på olika sätt 
-        och vårt mål med vår verksamhet är att skapa en miljö där alla får plats och 
-        får det stöd som behövs. Vi fokuserar mycket på barnens språkutveckling, 
-        känslohantering och utveckling. Att lära sig att uttrycka sina känslor och 
-        behov är otroligt viktigt för barnens utveckling. Vi observerar barn och 
-        barngruppen, planerar, reflekterar och håller regelbundet kontakt med er 
-        som vårdnadshavare om barnens utveckling och hur vi kan samarbeta för 
-        att stödja barnen på bäst sätt.  
-        </p>
-       
-        <h2 className={`${caveat.className} text-2xl py-5`}>Lärande</h2>
-        <p className='pb-4'>
-        Vi som pedagoger planerar undervisningen efter barnens intressen och nyfikenhet. 
-        Läroplanens och Barnkonventionens mål är alltid med i fokus. Viktigt för oss är 
-        att det ska vara lärorikt och lekfullt. Vi använder både innemiljön och utemiljön 
-        i vår undervisning. Innemiljön erbjuder många olika miljöer för att utforska och 
-        prova olika form av lek och samspel så som konstruktionslek och rollek. Det finns 
-        plats för pussel, spel, djur och massor med böcker. Det finns en ateljémiljö för 
-        kreativitet, målande, skapande och pyssel. Även vårt kök är en del av vår lärmiljö, 
-        med hjälp av vår egen kock utforskar barnen sina sinnen genom mat och matlagning.     
-        </p>
-        <p className='pb-4'>
-        I vår skog, som ligger precis utanför dörren, ges många möjligheter till att lära 
-        och utforska allt från småkryp till kretslopp. Vi följer årstidsskiftningarna och 
-        lär oss tillsammans då vi flyttar ut så mycket av vår undervisning som vi kan. 
-        Vi går ofta på utflykt och promenader i skogen och till vår egna grillplats och 
-        strand där vi klättrar, kryper, hoppar och springer.
-        </p>
-        </div>	
-        <div className='md:w-1/2'>
-      <Image
+        <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Om Gården</h1>
+        <Image
           src={item1}
-          alt="kids playing" 
+          alt="ko med mjölkflaska" 
           width={800}
           height={800}
           className="w-full p-10"
       /> 
+        <p className=' pb-4'>
+        Till gården hör ca 30 ha skog, 30 ha egen mark samt att jag arrenderar granngården på ca 25ha. Gården har drivits ekologiskt sedan -96. Här finns ca 26-30 kor och ca 30st kalvar och kvigor. Så totalt finns det ca 55 – 60 djur på gården året om. Alla kvigkalvar som föds stannar kvar på gården medans tjurkalvarna säljs vidare till en bonde i Alunda när dem är avvanda vid 3 månaders ålder.
+        </p>
+        <p className='pb-4'>
+        När mina kor kalvar får de komma in i en kalvningsbox några dagar innan de ser ut att kalva. När kon har fått sin kalv låter jag kalven gå kvar i 7 dagar sedan skiljer jag kalven från kon. I samma stund blir ”jag” kalvens mamma då det är mig kalven får mjölken av. Kalven skriker alltså inte efter kon eftersom kalven är mätt. Kon brukar ropa efter kalven ca 2-3 dagar efter kalven men får inget svar eftersom kalven får sin mjölk från mig.
+        </p>
+        <p className='pb-4'>
+        Alla kalvar får ca 10 liter mjölk varje dag i 3 månader plus att dem alltid har fri tillgång på hö eller ensilage.
+        </p>
+        <p className='pb-4'>
+        Här finns även höns, ett gäng ladugårdskatter, 2 hästar Chocco och Pål. På gården finns även en glad boxer Sune som alltid är med mig i vått och torrt. Han kommer med stor sannolikhet och Välkomnar er när ni besöker gården.
+        </p>
+        <p className='pb-4'>
+        Eftersom mina kor står uppbundna under vinterhalvåret har jag en regel att följa och som alla gårdar som är KRAV/Ekologiska måste följa nämligen rastning. Detta gäller ”små gårdar med upp till 42 godkända uppbundna ko platser”.
+        </p>
+        <p className='pb-4'>
+        Så 2 ggr/v släpper jag ut dem så dem får skutta runt en stund. Det här är en aktivitet som jag brukar bjuda in allmänheten till.
+        </p>
+        <p className='pb-4'>
+        Detta är ngt som ARLA sätter stopp för 1/10-24.Då kommer inte dem att hämta mjölk från EKO gårdar där korna står uppbundna. Jag förklarar detta mer ”Mitt Gräddprojekt”
+        </p>
+        <p className='pb-4'>
+        Så fort det går helst i mitten av april åker kor och kvigor ut för att sedan få vara ute dygnet runt ända till sen hösten. Direkt i början fodras djuren ute tills betet kommit igång ordentligt. Sen när värmen kommit släpper jag även ut småkalvarna. Min filosofi är att alla djur ska komma ut så fort det går på våren för att sen kunna vara ute långt in på hösten.
+        </p>
+      
         <Image
             src={item2}
-            alt="kids playing" 
+            alt="Kalvar i spiltan" 
             width={800}
             height={800}
             className="w-full p-10"
         />
-        </div>
+      </div>
     </main>
-    <ImageCarousel />
+
     <Footer />
   </>
+
   )
 }

@@ -24,7 +24,7 @@ const jobb = () => {
        
        <div>
         <h2 className='font-bold'>Är du vår nästa vikarie?</h2>
-        <p>
+        <p >
         Förskolan Giraffen är en mysig förskola som drivs som föräldrakooperativ i Norsesund med utsikt över Lillelången. Vi söker nu timvikarier som kan hoppa in och jobba dagar då ordinarie personal inte är på plats. Är du intresserad?
         </p>
             <p>Hör av dig till oss via info@forskolangiraffen.se eller till Giraffen på 0735-39 46 49</p>

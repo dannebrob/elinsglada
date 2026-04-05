@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Caveat } from 'next/font/google'
 
 
-// import item from '@/assets/IMG_6.jpg'
+import item from '@/assets/cow-event.jpg'
 import { ReadMoreButton } from '@/components/utils/ReadMoreButton'
 
 const caveat = Caveat({
@@ -28,15 +28,15 @@ export const Item4 = () => {
             </div>
             <div className='md:w-6/12'> 
             <div className='flex flex-col p-4'>
-                <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Ute- och innemiljön</h2>
+                <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>
+                    Event
+                </h2>
                 <p>
-                Den miljö vi vistas i påverkar oss på många sätt. Vi är därför både glada och tacksamma 
-                för den vackra och stimulerande miljö som är Giraffens. Sjöutsikt, vacker skog och 
-                stora lekytor både ute och inne tillhör hos oss barnens vardag.
+                Nyfiken på hur det känns att göra egen ost, klappa en ko eller följa med mig ut i ladugården? Här hittar du presentkorten som bjuder på dofter, skratt, mjölk, maskiner och minnen att ta med hem. Välj din favoritupplevelse – eller ge bort en till någon som behöver lite lantluft i själen.
                 </p>
             </div>
-                <ReadMoreButton link={'miljo'}/>
-            </div>
+                <ReadMoreButton link={'miljo'} />
+        </div>
     
         </div>
       )

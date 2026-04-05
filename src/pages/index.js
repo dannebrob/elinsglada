@@ -17,7 +17,7 @@ export default function Home() {
       <main>
       <Hero />
       <Display />
-      <Faq />
+      {/* <Faq /> */}
       </main>
       {/* <ImageCarousel /> */}
       <Footer />

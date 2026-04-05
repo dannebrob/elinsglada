@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Caveat } from 'next/font/google'
 
 
-// import item from '@/assets/IMG_9.jpg'
+import item from '@/assets/cow-about.jpg'
 import { ReadMoreButton } from '@/components/utils/ReadMoreButton'
 
 const caveat = Caveat({
@@ -28,11 +28,9 @@ export const Item2 = () => {
         </div>
         <div className='md:w-6/12'> 
         <div className='flex flex-col p-4'>
-            <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Maten</h2>
+            <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Vem är Elin? </h2>
             <p>
-            Giraffen har en egen kock som lagar mat från grunden och i möjligaste mån med 
-            ekologiska och närproducerade råvaror. Maten är även en del av den pedagogiska
-             verksamheten. Det skapar nyfikenhet och förståelse för matens ursprung och betydelse.
+           Vem blir man när man växer upp bland kor, syskonskara och impulsiva idéer? Följ med och upptäck hur en 5‑åring på gården blev bonden jag är idag.
             </p>
         </div>
             <ReadMoreButton link={'mat'}/>

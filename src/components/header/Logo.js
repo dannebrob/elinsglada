@@ -13,8 +13,8 @@ export const Logo = () => {
   return (
     <Link href="/">
          <div className={`${caveat.className} w-fit text-center p-10`}>
-        <h1 className='text-4xl'>Giraffen</h1>
-        <h2 className='text-lg '>Norsesund</h2>
+        <h2 className='text-4xl'>Elins Glada</h2>
+        <h2 className='text-lg '>Ekologiska Kor</h2>
     </div>
     </Link>
    

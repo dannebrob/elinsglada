@@ -19,7 +19,8 @@ export const ReadMoreButton = ({link, text} ) => {
 
 
   return (
-    <div className='mt-8'>
+    // render a div with tailwind that is centered
+    <div className='mt-8 flex justify-center'>
     <Link href={link}>
         <div className={`p-2 bg-green w-36 text-center rounded-lg text-2xl text-white ${caveat.className}`}>{text}</div>
     </Link>
