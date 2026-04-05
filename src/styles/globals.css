@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+}
+
+.wave-container {
+  background-color: #B4CBD9;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+
